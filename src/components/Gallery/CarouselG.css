@@ -1,0 +1,24 @@
+.carousel-container {
+    width: 350px; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+    position: relative; /* Position it fixed to place it in a corner */
+    top: 10px; /* Adjust to your needs */
+    left: 10px; /* Adjust to your needs */
+    z-index: 1000; /* Ensure it is above other content if needed */
+  }
+  
+  .custom-carousel .carousel .slide img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensures images fit well within the div */
+  }
+  
+  /* Add any additional custom styles here */
+  
+
+@media screen and (min-width: 568px) {
+    .carousel-container {
+        width: 500px;
+        height: 600px;
+    }
+}
