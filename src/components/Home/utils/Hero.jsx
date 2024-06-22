@@ -20,7 +20,7 @@ const Hero = () => {
         </Typography>
 
         <Link to="/register">
-          <Button variant='gradient' className='flex items-center gap-3 hover:shadow-lg mx-auto mt-4 sm:mt-6'>
+          <Button variant='gradient' className='flex items-center gap-3 hover:shadow-lg mx-auto md:mx-0 mt-4 sm:mt-6'>
             Explore
             <ArrowRight />
           </Button>
